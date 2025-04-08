@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "cd ./Practics_8 && ls .",
+      "run": "HOME=/home/runner DOTNET_CLI_TELEMETRY_OPTOUT=1 dotnet test --nologo",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
